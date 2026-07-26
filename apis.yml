@@ -1,8 +1,27 @@
 aid: fetch-robotics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fetch-robotics.png
 name: Fetch Robotics
-description: 'Fetch Robotics is a company surfaced as a portfolio company of shasta-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: robotics. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Fetch Robotics is a provider of autonomous mobile robots (AMRs) for the manufacturing,
+  distribution, and fulfillment industries, enabling customers to optimize warehouse and
+  material-handling workflows through robotic automation. Its Fetch and Freight robots are
+  programmed through a ROS (Robot Operating System) interface — standard ROS topics, services,
+  and actions conforming to ROS Enhancement Proposals (REPs) — rather than an HTTP/REST API, and
+  the first-party client, driver, and simulation libraries are published as open source in the
+  fetchrobotics GitHub organization. Fetch Robotics was acquired by Zebra Technologies in August
+  2021 for approximately $290M; fetchrobotics.com now redirects to Zebra and the autonomous-mobile-robot
+  product line is being wound down (2025-2026), though the open-source ROS packages remain available.
 url: https://raw.githubusercontent.com/api-evangelist/fetch-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Robotics
+- Autonomous Mobile Robots
+- Warehouse Automation
+- ROS
+- Robot Operating System
+- Material Handling
+- Manufacturing
+- Fulfillment
+- Open Source
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,28 @@ maintainers:
 common:
 - type: Website
   url: https://fetchrobotics.com
+- type: GitHubOrganization
+  url: https://github.com/fetchrobotics
+- type: SourceCode
+  url: https://github.com/fetchrobotics
+- type: Documentation
+  url: https://github.com/fetchrobotics/docs
+- type: Packages
+  url: packages/fetch-robotics-packages.yml
+- type: SDKs
+  url: packages/fetch-robotics-packages.yml
+- type: LLMsTxt
+  url: llms/fetch-robotics-llms.txt
+- type: Conformance
+  url: conformance/fetch-robotics-conformance.yml
+- type: Lifecycle
+  url: lifecycle/fetch-robotics-lifecycle.yml
+- type: DomainSecurity
+  url: security/fetch-robotics-domain-security.yml
+- type: WellKnown
+  url: well-known/fetch-robotics-well-known.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

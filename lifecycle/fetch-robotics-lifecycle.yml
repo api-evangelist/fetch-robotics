@@ -1,0 +1,29 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/fetchrobotics ; https://www.therobotreport.com/fetch-robotics-acquired-by-zebra-technologies-for-290m/
+note: >-
+  Fetch Robotics' developer surface is ROS-distro versioned, not semver/date API
+  versioned. The company was acquired by Zebra Technologies in August 2021 and the
+  autonomous-mobile-robot product line is being wound down (2025-2026), which is the
+  dominant lifecycle signal for this provider.
+versioning:
+  scheme: ros-distro
+  current: Noetic
+  history: [Indigo, Jade, Melodic, Noetic]
+  note: Research-edition docs and packages track ROS distributions rather than an API version number.
+status_page: null
+sla: null
+ownership:
+  acquired_by: Zebra Technologies
+  acquired_date: '2021-08-09'
+  acquisition_value_usd: 290000000
+  source: https://www.zebra.com/us/en/about-zebra/newsroom/press-releases/2021/zebra-technologies-to-acquire-fetch-robotics.html
+end_of_life:
+  status: winding-down
+  detail: >-
+    Zebra is winding down the autonomous-mobile-robot division built on the Fetch
+    acquisition; most robotics staff departing through 2025, remaining deployments
+    supported into early 2026. fetchrobotics.com now 301-redirects to Zebra and
+    docs.fetchrobotics.com no longer resolves.
+  source: https://www.automatedwarehouseonline.com/zebra-winds-down-mobile-robot-group-acquired-fetch/
+deprecated_operations: []

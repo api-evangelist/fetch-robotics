@@ -1,0 +1,27 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of /.well-known/ on the Fetch Robotics hosts
+note: >-
+  No /.well-known/ discovery documents are hosted. fetchrobotics.com now issues a
+  301 redirect to Zebra Technologies (https://www.zebra.com/us/en/products/autonomous-mobile-robots.html)
+  for every path following Zebra's 2021 acquisition, and the former developer docs
+  host docs.fetchrobotics.com no longer resolves in DNS. Recorded as honest empty result.
+host: https://fetchrobotics.com
+documents:
+  - path: /.well-known/security.txt
+    status: 301
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 301
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+    file: null
+  - path: /.well-known/api-catalog
+    status: 301
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 301
+    file: null
+docs_host: https://docs.fetchrobotics.com
+docs_host_status: dns-nxdomain

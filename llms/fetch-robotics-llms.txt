@@ -1,0 +1,30 @@
+# Fetch Robotics
+
+> Fetch Robotics is a provider of autonomous mobile robots (AMRs) for manufacturing, distribution, and fulfillment. Its robots (Fetch, Freight) are programmed through a ROS (Robot Operating System) interface rather than an HTTP/REST API. The company was acquired by Zebra Technologies in August 2021; fetchrobotics.com now redirects to Zebra and the autonomous-mobile-robot line is being wound down (2025-2026). The open-source ROS packages remain published in the fetchrobotics GitHub organization.
+
+## Overview
+- Programmatic surface: ROS (Robot Operating System) topics, services, and actions — not an HTTP/REST API.
+- Standard interfaces: control_msgs/FollowJointTrajectory (arm/torso), control_msgs/PointHead (head), geometry_msgs/Twist (mobile base), sensor_msgs/Imu (IMU sensors).
+- Conforms to ROS Enhancement Proposals (REPs) for code portability across ROS robots.
+
+## Source Code (first-party, open source)
+- fetch_ros — Open ROS components/drivers for Fetch and Freight: https://github.com/fetchrobotics/fetch_ros
+- fetch_gazebo — Gazebo simulation for Fetch/Freight: https://github.com/fetchrobotics/fetch_gazebo
+- robot_controllers — Real-time control infrastructure: https://github.com/fetchrobotics/robot_controllers
+- fetch_open_auto_dock — Autonomous docking: https://github.com/fetchrobotics/fetch_open_auto_dock
+- rosgo — Pure-Go ROS client library: https://github.com/fetchrobotics/rosgo (https://pkg.go.dev/github.com/fetchrobotics/rosgo)
+- flow — C++14 multi-stream data synchronization: https://github.com/fetchrobotics/flow
+
+## Docs
+- API overview (archived): https://github.com/fetchrobotics/docs
+- GitHub organization: https://github.com/fetchrobotics
+
+## Catalog artifacts (this repo)
+- packages/fetch-robotics-packages.yml
+- conformance/fetch-robotics-conformance.yml
+- lifecycle/fetch-robotics-lifecycle.yml
+- security/fetch-robotics-domain-security.yml
+- well-known/fetch-robotics-well-known.yml
+
+## Ownership
+- Acquired by Zebra Technologies, August 2021: https://www.zebra.com/us/en/about-zebra/newsroom/press-releases/2021/zebra-technologies-to-acquire-fetch-robotics.html

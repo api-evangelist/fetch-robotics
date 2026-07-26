@@ -1,0 +1,24 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.fetchrobotics.com/api_overview.html (archived; mirrored at https://github.com/fetchrobotics/docs)
+note: >-
+  Fetch Robotics exposes a ROS (Robot Operating System) programmatic interface rather
+  than an HTTP/REST API, so REST-oriented standards (OAuth2/OIDC/RFC 9457/JSON:API/OData)
+  do not apply. The applicable cross-cutting standards are the ROS interface conventions.
+standards:
+  - id: ros-reps
+    conforms: true
+    evidence: >-
+      The API overview states Fetch robots conform to ROS Enhancement Proposals (REPs)
+      to ensure code portability across ROS robots.
+  - id: ros-standard-message-interfaces
+    conforms: true
+    evidence: >-
+      Uses standard ROS message/action types (control_msgs/FollowJointTrajectory,
+      control_msgs/PointHead, geometry_msgs/Twist, sensor_msgs/Imu) rather than proprietary interfaces.
+  - id: oauth2
+    conforms: false
+    evidence: No HTTP/REST API; no OAuth2 security schemes published.
+  - id: rfc9457-problem-details
+    conforms: false
+    evidence: No HTTP/REST API; error handling is via ROS action/service result codes.

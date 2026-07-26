@@ -1,0 +1,59 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/fetchrobotics
+note: >-
+  Fetch Robotics ships no HTTP/REST client SDKs on npm/PyPI/Maven/NuGet. Its robots
+  expose a ROS (Robot Operating System) interface, and the first-party client/driver
+  libraries are open-source ROS packages published in the fetchrobotics GitHub org
+  (distributed via source build / the ROS build farm rather than a language registry).
+  rosgo (a pure-Go ROS client) is additionally resolvable on pkg.go.dev.
+packages:
+  - language: go
+    registry: pkg.go.dev
+    name: github.com/fetchrobotics/rosgo
+    url: https://pkg.go.dev/github.com/fetchrobotics/rosgo
+    install: go get github.com/fetchrobotics/rosgo
+    official: true
+    kind: client-library
+    description: Pure-Go implementation of the ROS client library (Indigo/Jade/Melodic/Noetic).
+    license: Apache-2.0
+  - language: cpp
+    registry: github
+    name: fetch_ros
+    url: https://github.com/fetchrobotics/fetch_ros
+    install: git clone https://github.com/fetchrobotics/fetch_ros
+    official: true
+    kind: ros-driver
+    description: Open ROS components (drivers, description, MoveIt config) for Fetch and Freight robots.
+  - language: python
+    registry: github
+    name: fetch_gazebo
+    url: https://github.com/fetchrobotics/fetch_gazebo
+    install: git clone https://github.com/fetchrobotics/fetch_gazebo
+    official: true
+    kind: simulation
+    description: Gazebo simulation environment for Fetch and Freight robots.
+  - language: cpp
+    registry: github
+    name: robot_controllers
+    url: https://github.com/fetchrobotics/robot_controllers
+    install: git clone https://github.com/fetchrobotics/robot_controllers
+    official: true
+    kind: control-framework
+    description: Core real-time control infrastructure used on Fetch robots.
+  - language: cpp
+    registry: github
+    name: fetch_open_auto_dock
+    url: https://github.com/fetchrobotics/fetch_open_auto_dock
+    install: git clone https://github.com/fetchrobotics/fetch_open_auto_dock
+    official: true
+    kind: navigation
+    description: Open-source autonomous docking (auto-dock) implementation for Fetch robots.
+  - language: cpp
+    registry: github
+    name: flow
+    url: https://github.com/fetchrobotics/flow
+    install: git clone https://github.com/fetchrobotics/flow
+    official: true
+    kind: library
+    description: C++14 header-only library for multi-stream (multi-topic) data synchronization.
