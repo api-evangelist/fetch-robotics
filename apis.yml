@@ -55,7 +55,7 @@ tags:
 - Material Handling
 - Manufacturing
 - Fulfillment
-- Open-Source
+- Open Source
 tags_raw:
 - Company
 - Robotics
@@ -67,6 +67,7 @@ tags_raw:
 - Manufacturing
 - Fulfillment
 - Open Source
+- Open-Source
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -101,3 +102,7 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-status: acquired
+x-acquired-by: skild-ai
+x-acquired-year: 2026
+x-status-source: https://www.dcvelocity.com/material-handling/robotics/zebra-sells-off-its-fetch-amr-division  # Zebra (acquirer 2021) sold the Fetch AMR division to Skild AI in April 2026, which continues it; fetchrobotics.com 301s to skild.ai (checked 2026-10-03)
