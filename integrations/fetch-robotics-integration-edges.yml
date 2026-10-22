@@ -1,4 +1,34 @@
 edges:
+- partner_name: Go module proxy
+  partner: null
+  partner_match: null
+  type: register
+  direction: provider-built
+  category: official SDK (Go)
+  evidence: https://pkg.go.dev/github.com/fetchrobotics/rosgo
+  channel: package-registry
+  relationship: distribution-channel
+  contract_reference:
+    register: Go module proxy (public registry JSON)
+    spec_file: null
+    language: Go
+    packages:
+    - name: github.com/fetchrobotics/rosgo
+      version: v0.0.0-20211223015326-bcec6a992f59
+      released: '2021-12-23'
+      released_field: Time
+      lapsed: true
+      page: https://pkg.go.dev/github.com/fetchrobotics/rosgo
+      repo_leg: github-org:fetchrobotics
+      publisher_leg: org:fetchrobotics
+      matched_by: github-org
+    current: false
+    signal_note: 'an official package on the registry: distribution, not an integration; lapsed = no release in
+      24 months'
+    detected_by: sweep-official-sdks.py
+    detected: '2026-10-18'
+  detected_by: sweep-official-sdks.py
+  first_seen: '2026-10-18'
 - partner_name: Open Robotics (ROS package index)
   partner: null
   partner_match: register
@@ -30,39 +60,9 @@ edges:
     - robot_controllers_msgs
     signal_note: 'participation only: packages/distros are context, never read'
     detected_by: sweep-industrial-robotics.py
-    detected: '2026-10-15'
+    detected: '2026-10-19'
   detected_by: sweep-industrial-robotics.py
   first_seen: '2026-10-15'
-- partner_name: Go module proxy
-  partner: null
-  partner_match: null
-  type: register
-  direction: provider-built
-  category: official SDK (Go)
-  evidence: https://pkg.go.dev/github.com/fetchrobotics/rosgo
-  channel: package-registry
-  relationship: distribution-channel
-  contract_reference:
-    register: Go module proxy (public registry JSON)
-    spec_file: null
-    language: Go
-    packages:
-    - name: github.com/fetchrobotics/rosgo
-      version: v0.0.0-20211223015326-bcec6a992f59
-      released: '2021-12-23'
-      released_field: Time
-      lapsed: true
-      page: https://pkg.go.dev/github.com/fetchrobotics/rosgo
-      repo_leg: github-org:fetchrobotics
-      publisher_leg: org:fetchrobotics
-      matched_by: github-org
-    current: false
-    signal_note: 'an official package on the registry: distribution, not an integration; lapsed = no release in
-      24 months'
-    detected_by: sweep-official-sdks.py
-    detected: '2026-10-18'
-  detected_by: sweep-official-sdks.py
-  first_seen: '2026-10-18'
 generated: '2026-10-15'
 method: searched
 source:
