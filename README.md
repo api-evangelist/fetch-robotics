@@ -64,6 +64,46 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Fetch Robotics is a company surfaced as a portfolio company of shasta-ventures and added to the API Evangelist network as a stub for enrichment. Sector: robotics. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: shasta-ventures — https://fetchrobotics.com
+Fetch Robotics is a provider of autonomous mobile robots (AMRs) for the manufacturing, distribution, and fulfillment industries, enabling customers to optimize warehouse and material-handling workflows through robotic automation. Its Fetch and Freight robots are programmed through a ROS (Robot Operating System) interface — standard ROS topics, services, and actions conforming to ROS Enhancement Proposals (REPs) — rather than an HTTP/REST API, and the first-party client, driver, and simulation libraries are published as open source in the fetchrobotics GitHub organization. Fetch Robotics was acquired by Zebra Technologies in August 2021 for approximately $290M; fetchrobotics.com now redirects to Zebra and the autonomous-mobile-robot product line is being wound down (2025-2026), though the open-source ROS packages remain available.
+
+**Areas:** Company · Robotics · Autonomous Mobile Robots · Warehouse Automation · ROS · Robot Operating System · Material Handling · Manufacturing · Fulfillment · Open Source
+
+## Fetch Robotics on APIs.io (historical record)
+
+Everything profiled for Fetch Robotics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fetch-robotics/](https://apis.io/providers/fetch-robotics/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fetch Robotics Domain Security](https://apis.io/security/fetch-robotics/fetch-robotics-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://fetchrobotics.com)
+- [Documentation](https://github.com/fetchrobotics/docs)
+- [GitHub](https://github.com/fetchrobotics)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Fetch Robotics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fetch-robotics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
